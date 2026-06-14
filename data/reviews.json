@@ -1,0 +1,98 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "title": "Uno de los mejores lugares de Mar del Plata",
+      "text": "Sin exagerar: uno de los mejores lugares de Mar del Plata. La comida tiene el amor de los platos de la abuela. El ambiente es cercano como el abrazo de un amigo muy querido.",
+      "author": "Guido Salvatori",
+      "source": "Google Maps",
+      "rating": 5,
+      "date": "2026-02-13"
+    },
+    {
+      "id": 2,
+      "title": "La provoleta un 10!",
+      "text": "Hermoso bar de barrio, la birra más fría que vas a tomar. Ideal para ir por un vermucito con unas ricas tapas. La provoleta un 10!",
+      "author": "Jennifer Ruth Terry Artusa",
+      "source": "Google Maps",
+      "rating": 5,
+      "date": "2026-02-13"
+    },
+    {
+      "id": 3,
+      "title": "Comida excelente y cerveza fría",
+      "text": "Muy agradable cantina de barrio. Comida excelente y cerveza fría en vasos pequeños para tomarse mil a buenos precios y con buen servicio.",
+      "author": "Francisca Ustariz",
+      "source": "Google Maps • Local Guide",
+      "rating": 5,
+      "date": "2026-02-13"
+    },
+    {
+      "id": 4,
+      "title": "Espectacular todo!",
+      "text": "Riquísimo todo lo que probé y te atienden de 10. Voy a volver seguro. La Piadina de mortadela es una locura.",
+      "author": "Eduardo Sanguinetti",
+      "source": "Google Maps • Local Guide",
+      "rating": 5,
+      "date": "2026-02-13"
+    },
+    {
+      "id": 5,
+      "title": "El mejor lugar para ir con amigos",
+      "text": "Los platos abundantes, ricos y excelente precio. Imperdible!",
+      "author": "Paz Tejerina",
+      "source": "Google Maps",
+      "rating": 5,
+      "date": "2026-02-13"
+    },
+    {
+      "id": 6,
+      "title": "Cozy neighborhood treasure",
+      "text": "Cantina Bernardo is a cozy neighborhood treasure, known for its tapas cooked in a traditional horno de barro. The food here is exceptional, with standout dishes that are perfect for sharing.",
+      "author": "Valentina Garcia Austt",
+      "source": "Google Maps • Local Guide",
+      "rating": 5,
+      "date": "2025-06-13"
+    },
+    {
+      "id": 7,
+      "title": "Rica comida, birra bien fría",
+      "text": "Rica comida, birra bien fría, excelente atención. PET friendly.",
+      "author": "Santiago Llan de Rosos",
+      "source": "Google Maps",
+      "rating": 5,
+      "date": "2025-09-13"
+    },
+    {
+      "id": 8,
+      "title": "Increíble lugar para tomar unas birras",
+      "text": "Increíble lugar para tomar unas birras y comer algo. Recomiendo la provo 100%. Volvería siempre.",
+      "author": "Rocio Macarena",
+      "source": "Google Maps • Local Guide",
+      "rating": 5,
+      "date": "2026-01-13"
+    },
+    {
+      "id": 9,
+      "title": "Gran opción si están por la zona",
+      "text": "Las chicas que atienden son un mil, siempre atentas y con la mejor predisposición. Las opciones de tapeo están muy buenas y son muy ricas. Mención aparte para la provoleta de la casa y el chipanguchito.",
+      "author": "Melina",
+      "source": "Google Maps • Local Guide",
+      "rating": 5,
+      "date": "2025-06-13"
+    },
+    {
+      "id": 10,
+      "title": "Comimos riquísimo",
+      "text": "Recomiendo las Piadinas y provoleta! Tomamos una birra helada y nos atendieron súper bien!",
+      "author": "Sol Moreno",
+      "source": "Google Maps",
+      "rating": 5,
+      "date": "2026-02-13"
+    }
+  ],
+  "totalReviews": 88,
+  "averageRating": 4.9,
+  "source": "Google Maps",
+  "lastUpdated": "2026-06-13"
+}

@@ -1,0 +1,175 @@
+{
+  "categories": [
+    {
+      "id": "morfar",
+      "name": "Para Morfar",
+      "subtitle": "Entradas y picadas",
+      "image": "menu-hero.jpg",
+      "items": [
+        {
+          "name": "Picada Cantinera",
+          "description": "Jamón crudo, salame, queso de Tandil, aceitunas, berenjenas al escabeche y pan de masa madre",
+          "price": "8.500"
+        },
+        {
+          "name": "Burrata con Tomates Asados",
+          "description": "Burrata fresca con tomates cherry asados al horno de barro, albahaca y reducción de aceto",
+          "price": "7.200"
+        },
+        {
+          "name": "Focaccia de Masa Madre",
+          "description": "Focaccia casera con romero, sal marina y aceite de oliva",
+          "price": "3.800"
+        },
+        {
+          "name": "Aceitunas Aliñadas",
+          "description": "Mix de aceitunas verdes y negras marinadas con ajo, romero y ají molido",
+          "price": "2.500"
+        },
+        {
+          "name": "Panceta Crocante",
+          "description": "Tiras de panceta ahumada cocidas al horno de barro hasta quedar crocantes",
+          "price": "4.500"
+        },
+        {
+          "name": "Verduras Asadas",
+          "description": "Berenjenas, morrones y cebollas asados con oliva y finas hierbas",
+          "price": "5.200"
+        }
+      ]
+    },
+    {
+      "id": "provoletas",
+      "name": "Provoletas & Empanadas",
+      "subtitle": "Al horno de barro",
+      "image": "menu-hero.jpg",
+      "items": [
+        {
+          "name": "Provoleta Clásica",
+          "description": "Queso provolone al horno de barro con orégano y aceite de oliva",
+          "price": "6.800"
+        },
+        {
+          "name": "Provoleta con Panceta",
+          "description": "Provoleta gratinada con tiras de panceta crocante",
+          "price": "7.500"
+        },
+        {
+          "name": "Empanadas de Carne",
+          "description": "Masa artesanal rellena de carne cortada a cuchillo (x3)",
+          "price": "4.200"
+        },
+        {
+          "name": "Empanadas de Jamón y Queso",
+          "description": "Con jamón cocido y queso de Tandil (x3)",
+          "price": "3.900"
+        }
+      ]
+    },
+    {
+      "id": "panchos",
+      "name": "Panchos & Sandwiches",
+      "subtitle": "Con pan de masa madre",
+      "image": "menu-hero.jpg",
+      "items": [
+        {
+          "name": "Pancho Italiano",
+          "description": "Salchicha artesanal con pimientos salteados y salsa criolla",
+          "price": "5.500"
+        },
+        {
+          "name": "Sándwich de Bondiola",
+          "description": "Bondiola braseada con chimichurri en pan de masa madre",
+          "price": "8.200"
+        },
+        {
+          "name": "Sándwich Caprese",
+          "description": "Tomate, mozzarella, albahaca y reducción de aceto balsámico",
+          "price": "6.800"
+        }
+      ]
+    },
+    {
+      "id": "picadas",
+      "name": "Picadas",
+      "subtitle": "Para compartir",
+      "image": "menu-hero.jpg",
+      "items": [
+        {
+          "name": "Picada Chica",
+          "description": "Fiambres, quesos y aceitunas (2 personas)",
+          "price": "9.500"
+        },
+        {
+          "name": "Picada Grande",
+          "description": "Selección de fiambres, quesos, aceitunas y conservas (4 personas)",
+          "price": "16.800"
+        }
+      ]
+    },
+    {
+      "id": "cervezas",
+      "name": "Cervezas",
+      "subtitle": "Artesanales y clásicas",
+      "image": "menu-hero.jpg",
+      "items": [
+        {
+          "name": "Cerveza Tirada",
+          "description": "Pinta 500ml",
+          "price": "3.200"
+        },
+        {
+          "name": "Cerveza Importada",
+          "description": "Stella Artois, Corona",
+          "price": "4.500"
+        }
+      ]
+    },
+    {
+      "id": "tragos",
+      "name": "Tragos",
+      "subtitle": "De autor",
+      "image": "menu-hero.jpg",
+      "items": [
+        {
+          "name": "Negroni de la Casa",
+          "description": "Gin, Campari y vermouth rosso",
+          "price": "6.800"
+        },
+        {
+          "name": "Aperol Spritz",
+          "description": "Aperol, prosecco y soda",
+          "price": "6.200"
+        },
+        {
+          "name": "Old Fashioned",
+          "description": "Bourbon, bitter y azúcar",
+          "price": "7.500"
+        }
+      ]
+    },
+    {
+      "id": "vinos",
+      "name": "Vinos",
+      "subtitle": "Selección argentina",
+      "image": "menu-hero.jpg",
+      "items": [
+        {
+          "name": "Copa de Vino Tinto",
+          "description": "Malbec o Cabernet",
+          "price": "3.800"
+        },
+        {
+          "name": "Copa de Vino Blanco",
+          "description": "Chardonnay o Torrontés",
+          "price": "3.500"
+        },
+        {
+          "name": "Botella de la Casa",
+          "description": "Consultar variedades disponibles",
+          "price": "12.000"
+        }
+      ]
+    }
+  ]
+}
