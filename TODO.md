@@ -1,36 +1,36 @@
-# 📋 Checklist Pre-Lanzamiento - Cantina Bernardo
+# 📋 Checklist - Cantina Bernardo MVP
 
 ## ✅ Completado
 
-- [x] Limpiar HTML de código Readdy
-- [x] CSS personalizado y optimizado (Sora + Phosphor Icons)
-- [x] JavaScript funcional (menú mobile, scroll)
-- [x] Descargar todos los assets
-- [x] Estructura de carpetas
-- [x] README con instrucciones
-- [x] Bento grid responsive
-- [x] Menú hamburguesa animado
+- [x] HTML limpio sin Readdy
+- [x] CSS mobile-first con Sora + Phosphor Icons
+- [x] JavaScript funcional
+- [x] Assets descargados (9 fotos + video)
+- [x] Menú dinámico JSON
+- [x] Reseñas reales Google Maps
 - [x] Schema.org SEO
-- [x] Sitemap & robots.txt
+- [x] Sitemap.xml & robots.txt
+- [x] Bento grid responsive (no espacios)
+- [x] Menú Hamburguesa animado (sin halo azul)
+- [x] Hover transitions rápidos (0.2s)
+- [x] Botón "Volver al inicio" (back-to-top)
+- [x] Footer compacto con flecha
+- [x] Contact section con info a la derecha
 - [x] GitHub conectado
+- [x] Vercel deploy
 
-## ⚠️ Pendiente
+## 🚀 Live
 
-### Crítico
-- [ ] Actualizar número de WhatsApp real en `index.html`
-- [ ] Optimizar video (necesita FFmpeg en PATH)
-- [ ] Revisar imágenes de reseñas (usar avatares reales o eliminar)
+**https://bernardo-bar.vercel.app**
 
-### Deploy
-- [ ] Desplegar en Vercel
-- [ ] Configurar dominio personalizado
-- [ ] Verificar HTTPS
+## 📝 Notas
 
-### Post-Deploy
-- [ ] Analytics (Google Analytics 4)
-- [ ] Search Console
-- [ ] Validar sitio en PageSpeed Insights
+- Número de WhatsApp: Actualizar en `index.html`
+- Video: Optimizar con FFmpeg (script `optimize-video.cmd`)
+- Imágenes: Reemplazar con fotos reales del lugar
 
 ---
+
+**Agradecimientos especiales** - Gracias por la confianza! 🙌
 
 **Última actualización**: Junio 13, 2026
