@@ -67,8 +67,8 @@
     <!-- Navigation -->
     <nav id="navbar">
         <div class="container">
-            <a href="#home" class="logo">
-                <img src="assets/images/logo.png" alt="Cantina Bernardo" width="48" height="48">
+            <a href="#home" class="logo" aria-label="Cantina Bernardo">
+                <img src="assets/images/logo.png" alt="" width="48" height="48">
             </a>
             <div class="nav-links">
                 <a href="#menu">Menú</a>
@@ -95,23 +95,16 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-video">
-            <picture class="hero-poster">
-                <source srcset="assets/images/cantina-hero-poster.webp" type="image/webp">
-                <img src="assets/images/cantina-hero-poster.jpg" alt="Cantina Bernardo" loading="eager">
-            </picture>
             <video autoplay loop muted playsinline preload="metadata" class="hero-video-element">
-                <source src="assets/videos/cantina-hero.webm" type="video/webm">
-                <source src="assets/videos/cantina-hero.mp4" type="video/mp4">
+                <source src="assets/videos/0615-1.mp4" type="video/mp4">
             </video>
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
-            <div class="hero-cta-wrapper">
-                <a href="#menu" class="btn-hero">
-                    <span>Ver Menú</span>
-                    <i class="ph ph-arrow-right"></i>
-                </a>
-            </div>
+            <a href="#menu" class="btn-hero">
+                <span>Ver Menú</span>
+                <i class="ph ph-arrow-right"></i>
+            </a>
         </div>
     </section>
 
