@@ -95,16 +95,23 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-video">
-            <video autoplay loop muted playsinline preload="auto" poster="assets/images/hero-poster.jpg">
-                <source src="assets/images/hero-video.mp4" type="video/mp4">
+            <picture class="hero-poster">
+                <source srcset="assets/images/cantina-hero-poster.webp" type="image/webp">
+                <img src="assets/images/cantina-hero-poster.jpg" alt="Cantina Bernardo" loading="eager">
+            </picture>
+            <video autoplay loop muted playsinline preload="metadata" class="hero-video-element">
+                <source src="assets/videos/cantina-hero.webm" type="video/webm">
+                <source src="assets/videos/cantina-hero.mp4" type="video/mp4">
             </video>
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
-            <a href="#menu" class="btn-hero">
-                <span>Ver Menú</span>
-                <i class="ph ph-arrow-right"></i>
-            </a>
+            <div class="hero-cta-wrapper">
+                <a href="#menu" class="btn-hero">
+                    <span>Ver Menú</span>
+                    <i class="ph ph-arrow-right"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -116,8 +123,8 @@
                     <span class="dot"></span>
                     <span class="text">Carta</span>
                 </div>
-                <h2>Para morfar<br><span class="italic">y tomar</span></h2>
-                <p class="subtitle">Masa madre, horno de barro y queso de Tandil</p>
+                <h2>Para tomar<br><span class="italic">y morfar</span></h2>
+                <p class="subtitle">Pan de masa madre, horno de barro y quesos de Tandil</p>
             </div>
 
             <div class="discount-badge">
@@ -398,30 +405,24 @@
                 </div>
             </div>
 
-            <div class="cta-maps">
-                <a href="https://www.google.com/search?q=bernardo+bar+mar+del+plata" target="_blank" rel="noopener" class="btn-secondary">
-                    Cómo llegar
-                </a>
-            </div>
-
             <div class="gallery-section">
                 <div class="gallery-grid">
-                    <div class="gallery-item gallery-item-large">
-                        <img src="assets/images/bernardo-bar(1).webp" alt="Cantina Bernardo" loading="lazy">
+                    <div class="gallery-item">
+                        <img src="assets/images/bernardo-bar(3).webp" alt="Cantina Bernardo" loading="lazy">
                     </div>
                     <div class="gallery-item">
                         <img src="assets/images/bernardo-bar(2).webp" alt="Ambiente" loading="lazy">
                     </div>
                     <div class="gallery-item">
-                        <img src="assets/images/bernardo-bar(3).webp" alt="Interior" loading="lazy">
+                        <img src="assets/images/bernardo-bar(9).webp" alt="Interior" loading="lazy">
                     </div>
-                    <div class="gallery-item gallery-item-tall">
+                    <div class="gallery-item">
                         <img src="assets/images/bernardo-bar(4).webp" alt="Barra" loading="lazy">
                     </div>
                     <div class="gallery-item">
                         <img src="assets/images/bernardo-bar(5).webp" alt="Mesas" loading="lazy">
                     </div>
-                    <div class="gallery-item gallery-item-wide">
+                    <div class="gallery-item">
                         <img src="assets/images/bernardo-bar(6).webp" alt="Terraza" loading="lazy">
                     </div>
                     <div class="gallery-item">
@@ -430,8 +431,8 @@
                     <div class="gallery-item">
                         <img src="assets/images/bernardo-bar(8).webp" alt="Ambiente nocturno" loading="lazy">
                     </div>
-                    <div class="gallery-item gallery-item-large">
-                        <img src="assets/images/bernardo-bar(9).webp" alt="Vista general" loading="lazy">
+                    <div class="gallery-item">
+                        <img src="assets/images/bernardo-bar(6).webp" alt="Vista general" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -452,7 +453,16 @@
                     </div>
                     
                     <a href="https://wa.me/5492235551234?text=Hola!%20Quisiera%20hacer%20una%20reserva" target="_blank" rel="noopener" class="contact-card contact-card-primary">
-                        <i class="ph ph-whatsapp-logo"></i>
+                        <svg width="24" height="24" viewBox="0 0 175.216 175.552" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="whatsapp-gradient" x1="85.915" x2="86.535" y1="32.567" y2="137.092" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#57d163"/>
+                                    <stop offset="1" stop-color="#23b33a"/>
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#whatsapp-gradient)" d="M87.184 25.227c-33.733 0-61.166 27.423-61.178 61.13a60.98 60.98 0 0 0 9.349 32.535l1.455 2.312-6.179 22.559 23.146-6.069 2.235 1.324c9.387 5.571 20.15 8.518 31.126 8.524h.023c33.707 0 61.14-27.426 61.153-61.135a60.75 60.75 0 0 0-17.895-43.251 60.75 60.75 0 0 0-43.235-17.929z"/>
+                            <path fill="#FFF" d="M68.772 55.603c-1.378-3.061-2.828-3.123-4.137-3.176l-3.524-.043c-1.226 0-3.218.46-4.902 2.3s-6.435 6.287-6.435 15.332 6.588 17.785 7.506 19.013 12.718 20.381 31.405 27.75c15.529 6.124 18.689 4.906 22.061 4.6s10.877-4.447 12.408-8.74 1.532-7.971 1.073-8.74-1.685-1.226-3.525-2.146-10.877-5.367-12.562-5.981-2.91-.919-4.137.921-4.746 5.979-5.819 7.206-2.144 1.381-3.984.462-7.76-2.861-14.784-9.124c-5.465-4.873-9.154-10.891-10.228-12.73s-.114-2.835.808-3.751c.825-.824 1.838-2.147 2.759-3.22s1.224-1.84 1.836-3.065.307-2.301-.153-3.22-4.032-10.011-5.666-13.647"/>
+                        </svg>
                         <span>Reservar por WhatsApp</span>
                     </a>
                     
@@ -467,17 +477,67 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="footer-main">
             <div class="footer-content">
-                <img src="assets/images/logo.png" alt="Cantina Bernardo" class="footer-logo">
-                <p class="footer-copy">© 2026 Cantina Bernardo</p>
+                <div class="footer-logo-container">
+                    <img src="assets/images/logo.png" alt="Cantina Bernardo" class="footer-logo-large">
+                </div>
             </div>
         </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p class="footer-copyright">© 2026 Cantina Bernardo</p>
+                <span class="footer-separator">•</span>
+                <a href="privacidad.html" class="footer-legal-link">Política de Privacidad</a>
+            </div>
+        </div>
+        
         <button class="back-to-top" aria-label="Volver al inicio">
             <i class="ph ph-arrow-up"></i>
         </button>
     </footer>
 
+    <script>
+        // Preloader Control - Inline para ejecución inmediata
+        (function() {
+            let preloaderHidden = false;
+            
+            function hidePreloader() {
+                const preloader = document.getElementById('preloader');
+                if (!preloaderHidden && preloader) {
+                    preloaderHidden = true;
+                    console.log('Hiding preloader...');
+                    preloader.classList.add('hidden');
+                    setTimeout(() => {
+                        if (preloader && preloader.parentNode) {
+                            preloader.remove();
+                            console.log('Preloader removed');
+                        }
+                    }, 500);
+                }
+            }
+            
+            // Click para ocultar
+            document.addEventListener('click', function(e) {
+                const preloader = document.getElementById('preloader');
+                if (preloader && e.target.closest('#preloader')) {
+                    console.log('Preloader clicked');
+                    hidePreloader();
+                }
+            });
+            
+            // Auto-hide después de 800ms
+            setTimeout(function() {
+                console.log('Auto-hide triggered');
+                hidePreloader();
+            }, 800);
+            
+            // Bonus: cuando termine de cargar
+            window.addEventListener('load', hidePreloader);
+        })();
+    </script>
+    
     <script src="script.js"></script>
     <script>
         // Load menu from JSON

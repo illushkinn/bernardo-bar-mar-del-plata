@@ -1,13 +1,54 @@
-// Navbar scroll effect
+// Navbar scroll effect with auto-hide
 const navbar = document.getElementById('navbar');
+let lastScrollTop = 0;
+const scrollThreshold = 100;
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Agregar clase scrolled
+    if (scrollTop > 50) {
         navbar.classList.add('scrolled');
     } else {
         navbar.classList.remove('scrolled');
     }
+    
+    // Ocultar navbar al hacer scroll hacia abajo después del threshold
+    if (scrollTop > scrollThreshold) {
+        if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            navbar.classList.add('hidden');
+        } else {
+            // Scrolling up
+            navbar.classList.remove('hidden');
+        }
+    } else {
+        navbar.classList.remove('hidden');
+    }
+    
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    
+    // Back to top button
+    const backToTop = document.querySelector('.back-to-top');
+    if (backToTop) {
+        if (scrollTop > 300) {
+            backToTop.classList.add('show');
+        } else {
+            backToTop.classList.remove('show');
+        }
+    }
 });
+
+// Back to top button click - smooth scroll to home
+const backToTopBtn = document.querySelector('.back-to-top');
+if (backToTopBtn) {
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}
 
 // Mobile menu toggle
 const menuToggle = document.querySelector('.menu-toggle');
